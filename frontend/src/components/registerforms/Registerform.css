@@ -1,0 +1,93 @@
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+  }
+  
+  .register-card {
+    width: 400px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .register-logo {
+    width: 60px;
+    margin-bottom: 20px;
+    margin-left: -290px;
+
+  }
+  
+  .register-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    flex: 1;
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  input::placeholder {
+    color: #aaa;
+  }
+  
+  select {
+    background-color: #fff;
+  }
+  
+  .link {
+    font-size: 14px;
+    text-decoration: none;
+    color: green;
+    float: inline-end;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
